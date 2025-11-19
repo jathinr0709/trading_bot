@@ -25,9 +25,6 @@ Python 3.7+
 
 python-binance library
 
-📦 Installation
-pip install -r requirements.txt
-
 ▶️ Usage
 
 Run the bot:
@@ -100,7 +97,6 @@ Errors & exceptions
 📁 Project Structure
 binance-trading-bot/
 ├── trading_bot.py          # Main bot implementation
-├── requirements.txt        # Python dependencies
 └── README.md               # Documentation
 
 👨‍💻 Author
