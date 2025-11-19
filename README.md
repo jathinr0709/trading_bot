@@ -1,65 +1,74 @@
-Binance Futures Trading Bot - Testnet
-A Python trading bot for Binance Futures Testnet with market and limit order capabilities.
+🚀 Binance Futures Trading Bot (Testnet)
 
-Features
+A Python-based trading bot for the Binance Futures Testnet, supporting market & limit orders with real-time price tracking and account monitoring.
+Perfect for demo trading, experimenting, and learning algorithmic trading — with zero real money risk.
+
+✨ Features
+
 ✅ Market Orders (Buy/Sell)
 
 ✅ Limit Orders (Buy/Sell)
 
-✅ Real-time price checking
+✅ Real-time Price Checking
 
-✅ Account balance monitoring
+✅ Account Balance Monitoring
 
-✅ Comprehensive logging
+✅ Comprehensive Logging
 
-✅ Interactive CLI
+✅ Interactive CLI for fast commands
 
-Requirements
+🔒 Testnet Safe — no real funds involved
+
+🛠️ Requirements
+
 Python 3.7+
 
 python-binance library
 
-Installation
-bash
+📦 Installation
 pip install -r requirements.txt
-Usage
+
+▶️ Usage
+
 Run the bot:
 
-bash
 python trading_bot.py
-Enter your Binance Futures Testnet API credentials when prompted
 
-Choose from the menu:
 
-Place Market Order
+You will be prompted to enter your Binance Futures Testnet API Key & Secret Key.
 
-Place Limit Order
+📌 Menu Options
 
-Check Current Price
+🔹 Place Market Order
 
-Check Account Balance
+🔹 Place Limit Order
 
-Exit
+🔹 Check Current Price
 
-Setup Binance Testnet
+🔹 Check Account Balance
+
+🔹 Exit
+
+🧪 Binance Testnet Setup
+
 Visit https://testnet.binancefuture.com
 
 Log in with your Binance account
 
 Go to API Management
 
-Create a new API key
+Create a new API Key
 
-Copy your API Key and Secret Key
+Copy your API Key & Secret Key
 
-Example Usage
-Check BTC Price:
+🧾 Example Usage
+📉 Check BTC Price
 
 Select option 3
 
 Enter symbol: BTCUSDT
 
-Place Limit Order:
+🛒 Place Limit Order
 
 Select option 2
 
@@ -71,25 +80,34 @@ Enter quantity: 0.002
 
 Enter price: 50000
 
-Logging
-All operations are automatically logged to timestamped log files:
+🗂️ Logging
 
-Format: trading_bot_YYYYMMDD_HHMMSS.log
+Every operation is saved automatically.
 
-Includes API requests, responses, and errors
+Log file format:
 
-Safety
-⚠️ TESTNET ONLY - No real funds involved. This bot uses Binance Futures Testnet for safe testing.
+trading_bot_YYYYMMDD_HHMMSS.log
 
-Project Structure
-text
+
+Logs include:
+
+API requests
+
+API responses
+
+Errors & exceptions
+
+📁 Project Structure
 binance-trading-bot/
 ├── trading_bot.py          # Main bot implementation
-├── requirements.txt         # Python dependencies
+├── requirements.txt        # Python dependencies
 └── README.md               # Documentation
-Author
+
+👨‍💻 Author
+
 Jathin R
 B.Tech CSE Graduate
 
-License
-This project is for educational and demonstration purposes.
+📜 License
+
+This project is for educational and demonstration purposes only.
